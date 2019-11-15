@@ -157,35 +157,35 @@ img {
 /* bg shortcodes */
 .bg-gradient1 span,
 .bg-gradient1:before {
-  background: #1FA2FF;
-  background: -webkit-gradient(linear, left top, left bottom, from(#1FA2FF), color-stop(80%, #12D8FA), to(#12D8FA));
-  background: linear-gradient(180deg, #1FA2FF 0%, #12D8FA 80%, #12D8FA 100%);
+  background: #1fa2ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1fa2ff), color-stop(80%, #12d8fa), to(#12d8fa));
+  background: linear-gradient(180deg, #1fa2ff 0%, #12d8fa 80%, #12d8fa 100%);
 }
 
 .bg-gradient2 span,
 .bg-gradient2:before {
-  background: #4776E6;
-  background: -webkit-gradient(linear, left top, right top, from(#4776E6), color-stop(80%, #8E54E9), to(#8E54E9));
-  background: linear-gradient(90deg, #4776E6 0%, #8E54E9 80%, #8E54E9 100%);
+  background: #4776e6;
+  background: -webkit-gradient(linear, left top, right top, from(#4776e6), color-stop(80%, #8e54e9), to(#8e54e9));
+  background: linear-gradient(90deg, #4776e6 0%, #8e54e9 80%, #8e54e9 100%);
 }
 
 .pop-onhover.bg-gradient3 span,
 .pop-onhover.bg-gradient3:before {
-  background: #B9AEF0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#B9AEF0), color-stop(80%, #ADA1EB), to(#ADA1EB));
-  background: linear-gradient(180deg, #B9AEF0 0%, #ADA1EB 80%, #ADA1EB 100%);
+  background: #b9aef0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b9aef0), color-stop(80%, #ada1eb), to(#ada1eb));
+  background: linear-gradient(180deg, #b9aef0 0%, #ada1eb 80%, #ada1eb 100%);
 }
 
 .bg-gradient4 span {
-  background: #F6682F;
-  background: -webkit-gradient(linear, left top, left bottom, from(#F6682F), color-stop(80%, #F6682F), to(#F6682F));
-  background: linear-gradient(180deg, #F6682F 0%, #F6682F 80%, #F6682F 100%);
+  background: #f6682f;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6682f), color-stop(80%, #f6682f), to(#f6682f));
+  background: linear-gradient(180deg, #f6682f 0%, #f6682f 80%, #f6682f 100%);
 }
 
 .fancy-button {
   display: inline-block;
   margin: 20px;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: bold;
   font-size: 1.25em;
   letter-spacing: 0.07em;
@@ -208,7 +208,7 @@ img {
 }
 
 .fancy-button:before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 40px;
   position: absolute;
@@ -301,8 +301,8 @@ img {
 }
 
 .pop-onhover.bg-gradient3 span:hover {
-  background: #B9AEF0;
-  background: linear-gradient(120deg, #B9AEF0 0%, #ADA1EB 80%, #ADA1EB 100%);
+  background: #b9aef0;
+  background: linear-gradient(120deg, #b9aef0 0%, #ada1eb 80%, #ada1eb 100%);
 }
 
 .bg-gradient4:before {
@@ -322,19 +322,19 @@ img {
 }
 
 .bg-gradient4:hover span {
-  background: #FC3D7C;
-  background: linear-gradient(-25deg, #FC3D7C 0%, #F76A34 80%, #F76A34 100%);
+  background: #fc3d7c;
+  background: linear-gradient(-25deg, #fc3d7c 0%, #f76a34 80%, #f76a34 100%);
 }
 
 .bg-gradient4:focus span,
 .bg-gradient4:active span {
-  background: #FC3D7C;
-  background: linear-gradient(25deg, #FC3D7C 0%, #F76A34 80%, #F76A34 100%);
+  background: #fc3d7c;
+  background: linear-gradient(25deg, #fc3d7c 0%, #f76a34 80%, #f76a34 100%);
 }
 
 .bg-gradient4:focus span {
-  -webkit-box-shadow: 0 0 9px #00FFF8;
-          box-shadow: 0 0 9px #00FFF8;
+  -webkit-box-shadow: 0 0 9px #00fff8;
+          box-shadow: 0 0 9px #00fff8;
 }
 
 .bg-gradient4:active span {
@@ -402,7 +402,7 @@ img {
 }
 
 .hero-content h2 {
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   color: white;
   text-align: center;
   font-weight: 700;
@@ -411,7 +411,7 @@ img {
 
 .hero-content h3 {
   margin-top: 1em;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: white;
   text-align: center;
   font-weight: 400;
@@ -422,7 +422,7 @@ img {
 .hero-content .signup {
   text-align: center;
   margin-top: 1em;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .hero-content .signup label {
@@ -440,7 +440,7 @@ img {
 }
 
 .hero-content .mailinglist-alert {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   text-align: center;
   color: #24e77c;
   margin-top: -4em;
@@ -452,7 +452,7 @@ img {
 .hero-content .mailinglist {
   text-align: center;
   margin-top: 5em;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .hero-content .mailinglist label {
@@ -462,12 +462,12 @@ img {
 }
 
 .hero-content .mailinglist input {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   padding: 12px;
-  margin-top: .5em;
+  margin-top: 0.5em;
   border-radius: 50px;
   width: 16em;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   font-size: 1.05em;
   height: 100%;
   line-height: normal;
@@ -477,14 +477,14 @@ img {
 
 .hero-content .mailinglist button {
   z-index: 999;
-  font-family: 'Muli', sans-serif;
-  -webkit-transition: .2s;
-  transition: .2s;
+  font-family: "Muli", sans-serif;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   border-radius: 50px;
   padding: 10.5px;
   font-weight: 700;
   font-size: 1.12em;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   height: 100%;
   border: 1px solid #3e81d8;
   background-color: #3e81d8;
@@ -502,16 +502,16 @@ img {
 }
 
 .about {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   margin-top: 1em;
 }
 
 .about a {
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, right top, from(#1FA2FF), color-stop(51%, #12D8FA), to(#1FA2FF));
-  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#1fa2ff), color-stop(51%, #12d8fa), to(#1fa2ff));
+  background-image: linear-gradient(to right, #1fa2ff 0%, #12d8fa 51%, #1fa2ff 100%);
   background-repeat: no-repeat;
-  background-size: 300% .1em;
+  background-size: 300% 0.1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
@@ -552,7 +552,7 @@ img {
 .about p {
   margin-top: 2em;
   text-align: center;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: #dfdfdf;
   font-size: 1.25em;
   font-weight: 300;
@@ -642,7 +642,7 @@ img {
 }
 
 .schedule h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -650,7 +650,7 @@ img {
 }
 
 .schedule h2 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 1.75em !important;
   color: #dddddd;
@@ -659,9 +659,9 @@ img {
 }
 
 .schedule .underline--magical {
-  background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
+  background-image: linear-gradient(135deg, #feb692 10%, #ea5455 100%);
   background-repeat: no-repeat;
-  background-size: 300% .05em;
+  background-size: 300% 0.05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
           animation: Gradient 2s ease infinite;
@@ -699,14 +699,14 @@ img {
 }
 
 .sponsors h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
 }
 
 .sponsors h2 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 1.75em;
   color: white;
@@ -714,7 +714,7 @@ img {
 }
 
 .sponsors h3 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 400;
   font-size: 1.25em;
   color: #dddddd;
@@ -723,9 +723,9 @@ img {
 
 .sponsors h3 a {
   text-decoration: none;
-  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
   background-repeat: no-repeat;
-  background-size: 300% .1em;
+  background-size: 300% 0.1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
@@ -788,9 +788,9 @@ img {
 }
 
 .sponsors .underline--magical {
-  background-image: linear-gradient(56deg, #08AEEA 0%, #2AF598 100%);
+  background-image: linear-gradient(56deg, #08aeea 0%, #2af598 100%);
   background-repeat: no-repeat;
-  background-size: 300% .05em;
+  background-size: 300% 0.05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
           animation: Gradient 2s ease infinite;
@@ -834,7 +834,7 @@ img {
 }
 
 .faq h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -842,7 +842,7 @@ img {
 }
 
 .faq h3 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 1.5em;
 }
@@ -850,7 +850,7 @@ img {
 .faq p {
   margin-top: 0.25em;
   margin-bottom: 2em;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 400;
   font-size: 1.25em;
   line-height: 1.5em;
@@ -859,10 +859,10 @@ img {
 
 .faq a {
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, right top, from(#1FA2FF), color-stop(51%, #12D8FA), to(#1FA2FF));
-  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#1fa2ff), color-stop(51%, #12d8fa), to(#1fa2ff));
+  background-image: linear-gradient(to right, #1fa2ff 0%, #12d8fa 51%, #1fa2ff 100%);
   background-repeat: no-repeat;
-  background-size: 500% .1em;
+  background-size: 500% 0.1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
@@ -904,9 +904,9 @@ img {
 }
 
 .faq .underline--magical {
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
   background-repeat: no-repeat;
-  background-size: 300% .05em;
+  background-size: 300% 0.05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
           animation: Gradient 2s ease infinite;
@@ -956,7 +956,7 @@ img {
 }
 
 .map h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -965,10 +965,10 @@ img {
 
 .map a {
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, right top, from(#1FA2FF), color-stop(51%, #12D8FA), to(#1FA2FF));
-  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#1fa2ff), color-stop(51%, #12d8fa), to(#1fa2ff));
+  background-image: linear-gradient(to right, #1fa2ff 0%, #12d8fa 51%, #1fa2ff 100%);
   background-repeat: no-repeat;
-  background-size: 100% .1em;
+  background-size: 100% 0.1em;
   background-position: 0 100%;
   color: white;
 }
@@ -976,7 +976,7 @@ img {
 .map p {
   margin-top: 2em;
   text-align: center;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: #dfdfdf;
   font-size: 1.1em;
   font-weight: 300;
@@ -1011,7 +1011,7 @@ img {
   color: #fff;
   margin-bottom: 10px;
   display: none;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .map .right h2 {
@@ -1032,8 +1032,8 @@ img {
   font-size: 1.1em;
   display: block;
   width: 100%;
-  margin-bottom: .6em;
-  font-family: 'Muli', sans-serif;
+  margin-bottom: 0.6em;
+  font-family: "Muli", sans-serif;
   resize: none;
 }
 
@@ -1063,7 +1063,7 @@ img {
   background-image: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
   background-image: linear-gradient(to right, #ee0979, #ff6a00);
   background-repeat: no-repeat;
-  background-size: 300% .05em;
+  background-size: 300% 0.05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
           animation: Gradient 2s ease infinite;
@@ -1092,7 +1092,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   padding-bottom: 0em;
   padding-top: 5em;
 }
@@ -1348,24 +1348,24 @@ table {
   padding: 0;
   width: 100%;
   table-layout: fixed;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 table tr {
-  background-color: #13191E;
+  background-color: #13191e;
   border: 1px solid #2a3944;
-  padding: .35em;
+  padding: 0.35em;
 }
 
 table th,
 table td {
-  padding: .625em;
+  padding: 0.625em;
   text-align: center;
 }
 
 table th {
-  font-size: .85em;
-  letter-spacing: .1em;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -1389,12 +1389,12 @@ table th {
   table tr {
     border-bottom: 3px solid #ddd;
     display: block;
-    margin-bottom: .625em;
+    margin-bottom: 0.625em;
   }
   table td {
     border-bottom: 1px solid #ddd;
     display: block;
-    font-size: .8em;
+    font-size: 0.8em;
     text-align: right;
   }
   table td::before {
@@ -1410,5 +1410,35 @@ table th {
   table td:last-child {
     border-bottom: 0;
   }
+}
+
+/* Style the navbar */
+#accordion {
+  overflow: hidden;
+  background-color: #13191e;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 75%;
+}
+
+/* Navbar links */
+#accordion a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.75vw;
+  text-decoration: none;
+  font-family: "Muli", sans-serif;
+  font-size: x-large;
 }
 /*# sourceMappingURL=main.css.map */
