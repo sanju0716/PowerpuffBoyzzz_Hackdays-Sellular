@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,700");
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-display: 100%;
 }
 
 body {
-  background-color: #13191E;
+  background-color: #13191e;
   color: white;
 }
 
@@ -18,14 +18,23 @@ img {
   border-style: none;
 }
 
-form, iframe, noscript {
+form,
+iframe,
+noscript {
   margin: 0 0 1.45rem;
   padding: 0;
   outline: 0;
 }
 
 #insta {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   -webkit-background-clip: text;
   /* Also define standard property for compatibility */
   -webkit-background-clip-background-clip: text;
@@ -75,17 +84,17 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .map-container {
@@ -93,17 +102,17 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .hero {
@@ -119,11 +128,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .scroll-down {
@@ -142,9 +151,9 @@ img {
   z-index: 9;
   left: 45%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
-          transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
   -webkit-animation: fade_move_down 4s ease-in-out infinite;
-          animation: fade_move_down 4s ease-in-out infinite;
+  animation: fade_move_down 4s ease-in-out infinite;
 }
 
 /*animated scroll arrow animation*/
@@ -165,7 +174,7 @@ img {
 @keyframes fade_move_down {
   0% {
     -webkit-transform: translate(0, -10px) rotate(45deg);
-            transform: translate(0, -10px) rotate(45deg);
+    transform: translate(0, -10px) rotate(45deg);
     opacity: 0;
   }
   50% {
@@ -173,7 +182,7 @@ img {
   }
   100% {
     -webkit-transform: translate(0, 10px) rotate(45deg);
-            transform: translate(0, 10px) rotate(45deg);
+    transform: translate(0, 10px) rotate(45deg);
     opacity: 0;
   }
 }
@@ -184,14 +193,14 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .hero-content #hero-logo {
@@ -203,7 +212,7 @@ img {
 }
 
 .hero-content h2 {
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   color: white;
   text-align: center;
   font-weight: 700;
@@ -212,7 +221,7 @@ img {
 
 .hero-content h3 {
   margin-top: 1em;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: white;
   text-align: center;
   font-weight: 400;
@@ -222,7 +231,7 @@ img {
 
 .hero-content a {
   margin-top: 3em;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   text-decoration: none;
   border: 2px solid white;
   border-radius: 50px;
@@ -234,7 +243,7 @@ img {
 }
 
 .hero-content .mailinglist-alert {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   text-align: center;
   color: #24e77c;
   margin-top: -4em;
@@ -246,7 +255,7 @@ img {
 .hero-content .mailinglist {
   text-align: center;
   margin-top: 5em;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .hero-content .mailinglist label {
@@ -256,12 +265,12 @@ img {
 }
 
 .hero-content .mailinglist input {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   padding: 12px;
-  margin-top: .5em;
+  margin-top: 0.5em;
   border-radius: 50px;
   width: 16em;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   font-size: 1.05em;
   height: 100%;
   line-height: normal;
@@ -271,22 +280,22 @@ img {
 
 .hero-content .mailinglist button {
   z-index: 999;
-  font-family: 'Muli', sans-serif;
-  -webkit-transition: .2s;
-  transition: .2s;
+  font-family: "Muli", sans-serif;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   border-radius: 50px;
   padding: 10.5px;
   font-weight: 700;
   font-size: 1.12em;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   height: 100%;
   border: 1px solid #3e81d8;
   background-color: #3e81d8;
   color: white;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   cursor: pointer;
 }
 
@@ -297,7 +306,7 @@ img {
 
 .hero-content .mailinglist a {
   margin-top: 0 !important;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   text-decoration: none;
   border: none !important;
   border-radius: 0px;
@@ -309,22 +318,34 @@ img {
 }
 
 .about {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   margin-top: 1em;
 }
 
 .about a {
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, right top, from(#1FA2FF), color-stop(51%, #12D8FA), to(#1FA2FF));
-  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1fa2ff),
+    color-stop(51%, #12d8fa),
+    to(#1fa2ff)
+  );
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
   background-repeat: no-repeat;
-  background-size: 300% .1em;
+  background-size: 300% 0.1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
-          animation: Gradient 1.5s ease infinite;
+  animation: Gradient 1.5s ease infinite;
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @-webkit-keyframes Gradient {
@@ -353,13 +374,13 @@ img {
 
 .about :hover {
   -webkit-animation-play-state: running;
-          animation-play-state: running;
+  animation-play-state: running;
 }
 
 .about p {
   margin-top: 2em;
   text-align: center;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: #dfdfdf;
   font-size: 1.25em;
   font-weight: 300;
@@ -383,11 +404,11 @@ img {
 
 .about .about-blurb {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 5em auto;
   text-align: center;
 }
@@ -399,19 +420,19 @@ img {
 
 .about .left {
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   height: 100%;
 }
 
 .about .right {
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order: 2;
+  order: 2;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   height: 300px;
 }
 
@@ -449,7 +470,7 @@ img {
 }
 
 .schedule h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -457,7 +478,7 @@ img {
 }
 
 .schedule h2 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 1.75em !important;
   color: #dddddd;
@@ -466,14 +487,14 @@ img {
 }
 
 .schedule .underline--magical {
-  background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
+  background-image: linear-gradient(135deg, #feb692 10%, #ea5455 100%);
   background-repeat: no-repeat;
-  background-size: 300% .05em;
+  background-size: 300% 0.05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
-          animation: Gradient 2s ease infinite;
+  animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -490,7 +511,7 @@ img {
 
 .schedule :hover {
   -webkit-animation-play-state: running;
-          animation-play-state: running;
+  animation-play-state: running;
 }
 
 .schedule .x-green {
@@ -501,19 +522,19 @@ img {
 .sponsors {
   margin-top: 10em;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .sponsors h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
 }
 
 .sponsors h2 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 1.75em;
   color: white;
@@ -521,7 +542,7 @@ img {
 }
 
 .sponsors h3 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 400;
   font-size: 1.25em;
   color: #dddddd;
@@ -530,15 +551,15 @@ img {
 
 .sponsors h3 a {
   text-decoration: none;
-  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
   background-repeat: no-repeat;
-  background-size: 300% .1em;
+  background-size: 300% 0.1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
-          animation: Gradient 1.5s ease infinite;
+  animation: Gradient 1.5s ease infinite;
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -555,7 +576,7 @@ img {
 
 .sponsors h3 :hover {
   -webkit-animation-play-state: running;
-          animation-play-state: running;
+  animation-play-state: running;
 }
 
 .sponsors .logo {
@@ -567,18 +588,18 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .sponsors .justify-content-center {
   -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
 }
 
 .sponsors .img-fluid {
@@ -590,18 +611,18 @@ img {
 
 .sponsors .img-fluid:hover {
   -webkit-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
 }
 
 .sponsors .underline--magical {
-  background-image: linear-gradient(56deg, #08AEEA 0%, #2AF598 100%);
+  background-image: linear-gradient(56deg, #08aeea 0%, #2af598 100%);
   background-repeat: no-repeat;
-  background-size: 300% .05em;
+  background-size: 300% 0.05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
-          animation: Gradient 2s ease infinite;
+  animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -618,7 +639,7 @@ img {
 
 .sponsors :hover {
   -webkit-animation-play-state: running;
-          animation-play-state: running;
+  animation-play-state: running;
 }
 
 .sponsors .circle-pink {
@@ -632,15 +653,15 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 10em;
 }
 
 .faq h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -648,7 +669,7 @@ img {
 }
 
 .faq h3 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 1.5em;
 }
@@ -656,7 +677,7 @@ img {
 .faq p {
   margin-top: 0.25em;
   margin-bottom: 2em;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 400;
   font-size: 1.25em;
   line-height: 1.5em;
@@ -665,16 +686,28 @@ img {
 
 .faq a {
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, right top, from(#1FA2FF), color-stop(51%, #12D8FA), to(#1FA2FF));
-  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1fa2ff),
+    color-stop(51%, #12d8fa),
+    to(#1fa2ff)
+  );
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
   background-repeat: no-repeat;
-  background-size: 500% .1em;
+  background-size: 500% 0.1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
-          animation: Gradient 1.5s ease infinite;
+  animation: Gradient 1.5s ease infinite;
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -691,7 +724,7 @@ img {
 
 .faq :hover {
   -webkit-animation-play-state: running;
-          animation-play-state: running;
+  animation-play-state: running;
 }
 
 .faq .row {
@@ -699,7 +732,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .faq .faq-qa {
@@ -710,14 +743,19 @@ img {
 }
 
 .faq .underline--magical {
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
   background-repeat: no-repeat;
-  background-size: 300% .05em;
+  background-size: 300% 0.05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
-          animation: Gradient 2s ease infinite;
+  animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -734,7 +772,7 @@ img {
 
 .faq :hover {
   -webkit-animation-play-state: running;
-          animation-play-state: running;
+  animation-play-state: running;
 }
 
 .faq .circle-green {
@@ -762,7 +800,7 @@ img {
 }
 
 .map h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -771,10 +809,22 @@ img {
 
 .map a {
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, right top, from(#1FA2FF), color-stop(51%, #12D8FA), to(#1FA2FF));
-  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1fa2ff),
+    color-stop(51%, #12d8fa),
+    to(#1fa2ff)
+  );
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
   background-repeat: no-repeat;
-  background-size: 100% .1em;
+  background-size: 100% 0.1em;
   background-position: 0 100%;
   color: white;
 }
@@ -782,7 +832,7 @@ img {
 .map p {
   margin-top: 2em;
   text-align: center;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: #dfdfdf;
   font-size: 1.1em;
   font-weight: 300;
@@ -791,20 +841,20 @@ img {
 
 .map .left {
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   height: 100%;
   max-height: 75vh;
 }
 
 .map .right {
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order: 2;
+  order: 2;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   height: 100%;
   /* Clearfix */
 }
@@ -817,7 +867,7 @@ img {
   color: #fff;
   margin-bottom: 10px;
   display: none;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .map .right h2 {
@@ -838,8 +888,8 @@ img {
   font-size: 1.1em;
   display: block;
   width: 100%;
-  margin-bottom: .6em;
-  font-family: 'Muli', sans-serif;
+  margin-bottom: 0.6em;
+  font-family: "Muli", sans-serif;
   resize: none;
 }
 
@@ -866,15 +916,21 @@ img {
 }
 
 .map .underline--magical {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ee0979),
+    to(#ff6a00)
+  );
   background-image: linear-gradient(to right, #ee0979, #ff6a00);
   background-repeat: no-repeat;
-  background-size: 300% .05em;
+  background-size: 300% 0.05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
-          animation: Gradient 2s ease infinite;
+  animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -891,21 +947,21 @@ img {
 
 .map :hover {
   -webkit-animation-play-state: running;
-          animation-play-state: running;
+  animation-play-state: running;
 }
 
 footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   padding-bottom: 0em;
   padding-top: 5em;
 }
 
 footer .footer-content {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   white-space: nowrap;
   padding-left: 0.25em;
   padding-right: 0.25em;
@@ -915,14 +971,14 @@ footer .footer-content {
   display: -ms-flexbox !important;
   display: flex !important;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 footer .footer-content a {
   -webkit-box-flex: 0;
-      -ms-flex: 0;
-          flex: 0;
+  -ms-flex: 0;
+  flex: 0;
   padding-left: 0.75em;
   padding-right: 0.75em;
   margin-left: 1em;
@@ -1050,11 +1106,11 @@ footer .footer-content a {
   }
   .about-container {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
   .map-container {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
   .about p {
     text-align: left;
@@ -1105,8 +1161,8 @@ footer .footer-content a {
   }
   .faq .faq-qa {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
     max-width: 50%;
   }
   .faq .circle-green {
