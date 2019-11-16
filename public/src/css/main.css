@@ -222,7 +222,7 @@ img {
 .fancy-button {
   display: inline-block;
   margin: 20px;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: bold;
   font-size: 1.25em;
   letter-spacing: 0.07em;
@@ -245,7 +245,7 @@ img {
 }
 
 .fancy-button:before {
-  content: "";
+  content: '';
   display: inline-block;
   height: 40px;
   position: absolute;
@@ -338,8 +338,8 @@ img {
 }
 
 .pop-onhover.bg-gradient3 span:hover {
-  background: #b9aef0;
-  background: linear-gradient(120deg, #b9aef0 0%, #ada1eb 80%, #ada1eb 100%);
+  background: #B9AEF0;
+  background: linear-gradient(120deg, #B9AEF0 0%, #ADA1EB 80%, #ADA1EB 100%);
 }
 
 .bg-gradient4:before {
@@ -359,14 +359,14 @@ img {
 }
 
 .bg-gradient4:hover span {
-  background: #fc3d7c;
-  background: linear-gradient(-25deg, #fc3d7c 0%, #f76a34 80%, #f76a34 100%);
+  background: #FC3D7C;
+  background: linear-gradient(-25deg, #FC3D7C 0%, #F76A34 80%, #F76A34 100%);
 }
 
 .bg-gradient4:focus span,
 .bg-gradient4:active span {
-  background: #fc3d7c;
-  background: linear-gradient(25deg, #fc3d7c 0%, #f76a34 80%, #f76a34 100%);
+  background: #FC3D7C;
+  background: linear-gradient(25deg, #FC3D7C 0%, #F76A34 80%, #F76A34 100%);
 }
 
 .bg-gradient4:focus span {
@@ -439,7 +439,7 @@ img {
 }
 
 .hero-content h2 {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
   color: white;
   text-align: center;
   font-weight: 700;
@@ -448,7 +448,7 @@ img {
 
 .hero-content h3 {
   margin-top: 1em;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   color: white;
   text-align: center;
   font-weight: 400;
@@ -459,7 +459,7 @@ img {
 .hero-content .signup {
   text-align: center;
   margin-top: 1em;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 .hero-content .signup label {
@@ -479,7 +479,7 @@ img {
 }
 
 .hero-content .mailinglist-alert {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   text-align: center;
   color: #24e77c;
   margin-top: -4em;
@@ -491,7 +491,7 @@ img {
 .hero-content .mailinglist {
   text-align: center;
   margin-top: 5em;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 .hero-content .mailinglist label {
@@ -501,12 +501,12 @@ img {
 }
 
 .hero-content .mailinglist input {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   padding: 12px;
-  margin-top: 0.5em;
+  margin-top: .5em;
   border-radius: 50px;
   width: 16em;
-  letter-spacing: 0.3px;
+  letter-spacing: .3px;
   font-size: 1.05em;
   height: 100%;
   line-height: normal;
@@ -516,14 +516,14 @@ img {
 
 .hero-content .mailinglist button {
   z-index: 999;
-  font-family: "Muli", sans-serif;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  font-family: 'Muli', sans-serif;
+  -webkit-transition: .2s;
+  transition: .2s;
   border-radius: 50px;
   padding: 10.5px;
   font-weight: 700;
   font-size: 1.12em;
-  letter-spacing: 0.3px;
+  letter-spacing: .3px;
   height: 100%;
   border: 1px solid #3e81d8;
   background-color: #3e81d8;
@@ -541,7 +541,7 @@ img {
 }
 
 .about {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   margin-top: 1em;
 }
 
@@ -562,7 +562,7 @@ img {
     #1fa2ff 100%
   );
   background-repeat: no-repeat;
-  background-size: 300% 0.1em;
+  background-size: 300% .1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
@@ -603,7 +603,7 @@ img {
 .about p {
   margin-top: 2em;
   text-align: center;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #dfdfdf;
   font-size: 1.25em;
   font-weight: 300;
@@ -693,7 +693,7 @@ img {
 }
 
 .schedule h1 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -701,7 +701,7 @@ img {
 }
 
 .schedule h2 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 700;
   font-size: 1.75em !important;
   color: #dddddd;
@@ -710,9 +710,9 @@ img {
 }
 
 .schedule .underline--magical {
-  background-image: linear-gradient(135deg, #feb692 10%, #ea5455 100%);
+  background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
   background-repeat: no-repeat;
-  background-size: 300% 0.05em;
+  background-size: 300% .05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
   animation: Gradient 2s ease infinite;
@@ -750,14 +750,14 @@ img {
 }
 
 .sponsors h1 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
 }
 
 .sponsors h2 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 700;
   font-size: 1.75em;
   color: white;
@@ -765,7 +765,7 @@ img {
 }
 
 .sponsors h3 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 400;
   font-size: 1.25em;
   color: #dddddd;
@@ -774,9 +774,9 @@ img {
 
 .sponsors h3 a {
   text-decoration: none;
-  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
+  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
   background-repeat: no-repeat;
-  background-size: 300% 0.1em;
+  background-size: 300% .1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
@@ -839,9 +839,9 @@ img {
 }
 
 .sponsors .underline--magical {
-  background-image: linear-gradient(56deg, #08aeea 0%, #2af598 100%);
+  background-image: linear-gradient(56deg, #08AEEA 0%, #2AF598 100%);
   background-repeat: no-repeat;
-  background-size: 300% 0.05em;
+  background-size: 300% .05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
   animation: Gradient 2s ease infinite;
@@ -885,7 +885,7 @@ img {
 }
 
 .faq h1 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -893,7 +893,7 @@ img {
 }
 
 .faq h3 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 700;
   font-size: 1.5em;
 }
@@ -901,7 +901,7 @@ img {
 .faq p {
   margin-top: 0.25em;
   margin-bottom: 2em;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 400;
   font-size: 1.25em;
   line-height: 1.5em;
@@ -925,7 +925,7 @@ img {
     #1fa2ff 100%
   );
   background-repeat: no-repeat;
-  background-size: 500% 0.1em;
+  background-size: 500% .1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
@@ -974,7 +974,7 @@ img {
     #2b86c5 100%
   );
   background-repeat: no-repeat;
-  background-size: 300% 0.05em;
+  background-size: 300% .05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
   animation: Gradient 2s ease infinite;
@@ -1024,7 +1024,7 @@ img {
 }
 
 .map h1 {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 700;
   font-size: 2.25em;
   text-align: center;
@@ -1048,7 +1048,7 @@ img {
     #1fa2ff 100%
   );
   background-repeat: no-repeat;
-  background-size: 100% 0.1em;
+  background-size: 100% .1em;
   background-position: 0 100%;
   color: white;
 }
@@ -1056,7 +1056,7 @@ img {
 .map p {
   margin-top: 2em;
   text-align: center;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #dfdfdf;
   font-size: 1.1em;
   font-weight: 300;
@@ -1091,7 +1091,7 @@ img {
   color: #fff;
   margin-bottom: 10px;
   display: none;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 .map .right h2 {
@@ -1112,8 +1112,8 @@ img {
   font-size: 1.1em;
   display: block;
   width: 100%;
-  margin-bottom: 0.6em;
-  font-family: "Muli", sans-serif;
+  margin-bottom: .6em;
+  font-family: 'Muli', sans-serif;
   resize: none;
 }
 
@@ -1149,7 +1149,7 @@ img {
   );
   background-image: linear-gradient(to right, #ee0979, #ff6a00);
   background-repeat: no-repeat;
-  background-size: 300% 0.05em;
+  background-size: 300% .05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
   animation: Gradient 2s ease infinite;
@@ -1178,7 +1178,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   padding-bottom: 0em;
   padding-top: 5em;
 }
@@ -1434,24 +1434,24 @@ table {
   padding: 0;
   width: 100%;
   table-layout: fixed;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 table tr {
-  background-color: #13191e;
+  background-color: #13191E;
   border: 1px solid #2a3944;
-  padding: 0.35em;
+  padding: .35em;
 }
 
 table th,
 table td {
-  padding: 0.625em;
+  padding: .625em;
   text-align: center;
 }
 
 table th {
-  font-size: 0.85em;
-  letter-spacing: 0.1em;
+  font-size: .85em;
+  letter-spacing: .1em;
   text-transform: uppercase;
 }
 
@@ -1475,12 +1475,12 @@ table th {
   table tr {
     border-bottom: 3px solid #ddd;
     display: block;
-    margin-bottom: 0.625em;
+    margin-bottom: .625em;
   }
   table td {
     border-bottom: 1px solid #ddd;
     display: block;
-    font-size: 0.8em;
+    font-size: .8em;
     text-align: right;
   }
   table td::before {
