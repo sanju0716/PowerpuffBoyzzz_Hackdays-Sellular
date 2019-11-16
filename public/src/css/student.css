@@ -1,7 +1,7 @@
 /* PAGE & INPUT STYLING */
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-display: 100%;
@@ -9,25 +9,13 @@
 
 body {
   color: #fff;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(20, 30, 48, 0.96)),
-      to(rgba(36, 59, 85, 0.96))
-    ),
-    url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
-  background: linear-gradient(
-      to right,
-      rgba(20, 30, 48, 0.96),
-      rgba(36, 59, 85, 0.96)
-    ),
-    url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(20, 30, 48, 0.96)), to(rgba(36, 59, 85, 0.96))), url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
+  background: linear-gradient(to right, rgba(20, 30, 48, 0.96), rgba(36, 59, 85, 0.96)), url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-animation: Gradient 600s ease infinite;
-  animation: Gradient 600s ease infinite;
+          animation: Gradient 600s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -138,20 +126,8 @@ input[type="radio"].toggle:checked + label:after {
 a {
   text-decoration: none;
   color: #fff;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#1fa2ff),
-    color-stop(51%, #12d8fa),
-    to(#1fa2ff)
-  );
-  background-image: linear-gradient(
-    to right,
-    #1fa2ff 0%,
-    #12d8fa 51%,
-    #1fa2ff 100%
-  );
+  background-image: -webkit-gradient(linear, left top, right top, from(#1fa2ff), color-stop(51%, #12d8fa), to(#1fa2ff));
+  background-image: linear-gradient(to right, #1fa2ff 0%, #12d8fa 51%, #1fa2ff 100%);
   background-repeat: no-repeat;
   background-size: 300% 0.1em;
   background-position: 0 100%;

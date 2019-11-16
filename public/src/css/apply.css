@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-display: 100%;
@@ -13,20 +13,8 @@ body {
                       supported by Chrome and Opera */
   min-height: 100vh;
   color: #fff;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(20, 30, 48, 0.96)),
-      to(rgba(36, 59, 85, 0.96))
-    ),
-    url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
-  background: linear-gradient(
-      to right,
-      rgba(20, 30, 48, 0.96),
-      rgba(36, 59, 85, 0.96)
-    ),
-    url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(20, 30, 48, 0.96)), to(rgba(36, 59, 85, 0.96))), url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
+  background: linear-gradient(to right, rgba(20, 30, 48, 0.96), rgba(36, 59, 85, 0.96)), url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,11 +27,11 @@ img {
 
 .container {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 2vh auto;
   width: 80vw;
   margin-bottom: 8em;
@@ -60,20 +48,8 @@ img {
 .underlined {
   text-decoration: none;
   color: #fff;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#1fa2ff),
-    color-stop(51%, #12d8fa),
-    to(#1fa2ff)
-  );
-  background-image: linear-gradient(
-    to right,
-    #1fa2ff 0%,
-    #12d8fa 51%,
-    #1fa2ff 100%
-  );
+  background-image: -webkit-gradient(linear, left top, right top, from(#1fa2ff), color-stop(51%, #12d8fa), to(#1fa2ff));
+  background-image: linear-gradient(to right, #1fa2ff 0%, #12d8fa 51%, #1fa2ff 100%);
   background-repeat: no-repeat;
   background-size: 300% 0.1em;
   background-position: 0 100%;
@@ -89,55 +65,27 @@ img {
 .bg-gradient1 span,
 .bg-gradient1:before {
   background: #1fa2ff;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1fa2ff),
-    color-stop(80%, #12d8fa),
-    to(#12d8fa)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#1fa2ff), color-stop(80%, #12d8fa), to(#12d8fa));
   background: linear-gradient(180deg, #1fa2ff 0%, #12d8fa 80%, #12d8fa 100%);
 }
 
 .bg-gradient2 span,
 .bg-gradient2:before {
   background: #4776e6;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#4776e6),
-    color-stop(80%, #8e54e9),
-    to(#8e54e9)
-  );
+  background: -webkit-gradient(linear, left top, right top, from(#4776e6), color-stop(80%, #8e54e9), to(#8e54e9));
   background: linear-gradient(90deg, #4776e6 0%, #8e54e9 80%, #8e54e9 100%);
 }
 
 .bg-gradient3 span,
 .bg-gradient3:before {
   background: #eb3349;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#eb3349),
-    color-stop(80%, #f45c43),
-    to(#f45c43)
-  );
+  background: -webkit-gradient(linear, left top, right top, from(#eb3349), color-stop(80%, #f45c43), to(#f45c43));
   background: linear-gradient(90deg, #eb3349 0%, #f45c43 80%, #f45c43 100%);
 }
 
 .bg-gradient4 span {
   background: #f6682f;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f6682f),
-    color-stop(80%, #f6682f),
-    to(#f6682f)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6682f), color-stop(80%, #f6682f), to(#f6682f));
   background: linear-gradient(180deg, #f6682f 0%, #f6682f 80%, #f6682f 100%);
 }
 
@@ -177,7 +125,7 @@ img {
   z-index: -1;
   border-radius: 2em;
   -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+          transform-style: preserve-3d;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -190,7 +138,7 @@ img {
   z-index: 2;
   will-change: transform, filter;
   -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+          transform-style: preserve-3d;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -205,20 +153,20 @@ img {
 
 .fancy-button:hover span {
   -webkit-filter: brightness(0.9) contrast(1.2);
-  filter: brightness(0.9) contrast(1.2);
+          filter: brightness(0.9) contrast(1.2);
   -webkit-transform: scale(0.96);
-  transform: scale(0.96);
+          transform: scale(0.96);
 }
 
 .fancy-button:hover:before {
   bottom: 3px;
   -webkit-filter: blur(6px) brightness(0.8);
-  filter: blur(6px) brightness(0.8);
+          filter: blur(6px) brightness(0.8);
 }
 
 .fancy-button:active span {
   -webkit-filter: brightness(0.75) contrast(1.7);
-  filter: brightness(0.75) contrast(1.7);
+          filter: brightness(0.75) contrast(1.7);
 }
 
 .fancy-button.pop-onhover span {
@@ -234,19 +182,19 @@ img {
   bottom: -7px;
   opacity: 1;
   -webkit-filter: blur(16px);
-  filter: blur(16px);
+          filter: blur(16px);
 }
 
 .fancy-button.pop-onhover:hover span {
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
 
 .fancy-button.pop-onhover:hover:active span {
   -webkit-filter: brightness(1) contrast(1);
-  filter: brightness(1) contrast(1);
+          filter: brightness(1) contrast(1);
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -254,7 +202,7 @@ img {
 .fancy-button.pop-onhover:hover:active:before {
   bottom: 0;
   -webkit-filter: blur(5px) brightness(0.85);
-  filter: blur(5px) brightness(0.85);
+          filter: blur(5px) brightness(0.85);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -293,12 +241,12 @@ img {
 
 .bg-gradient4:focus span {
   -webkit-box-shadow: 0 0 9px #00fff8;
-  box-shadow: 0 0 9px #00fff8;
+          box-shadow: 0 0 9px #00fff8;
 }
 
 .bg-gradient4:active span {
   -webkit-filter: brightness(0.85) contrast(1.3);
-  filter: brightness(0.85) contrast(1.3);
+          filter: brightness(0.85) contrast(1.3);
 }
 
 .bg-gradient4 span {

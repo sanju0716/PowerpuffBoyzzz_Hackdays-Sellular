@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,700");
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-display: 100%;
@@ -27,14 +27,7 @@ noscript {
 }
 
 #insta {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   -webkit-background-clip: text;
   /* Also define standard property for compatibility */
   -webkit-background-clip-background-clip: text;
@@ -90,17 +83,17 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .map-container {
@@ -108,17 +101,17 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .hero {
@@ -134,11 +127,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .scroll-down {
@@ -157,66 +150,38 @@ img {
   z-index: 9;
   left: 45%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
-  transform: translate(-50%, 0%) rotate(45deg);
+          transform: translate(-50%, 0%) rotate(45deg);
   -webkit-animation: fade_move_down 4s ease-in-out infinite;
-  animation: fade_move_down 4s ease-in-out infinite;
+          animation: fade_move_down 4s ease-in-out infinite;
 }
 
 /* Mixins */
 /* bg shortcodes */
 .bg-gradient1 span,
 .bg-gradient1:before {
-  background: #1fa2ff;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1fa2ff),
-    color-stop(80%, #12d8fa),
-    to(#12d8fa)
-  );
-  background: linear-gradient(180deg, #1fa2ff 0%, #12d8fa 80%, #12d8fa 100%);
+  background: #1FA2FF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1FA2FF), color-stop(80%, #12D8FA), to(#12D8FA));
+  background: linear-gradient(180deg, #1FA2FF 0%, #12D8FA 80%, #12D8FA 100%);
 }
 
 .bg-gradient2 span,
 .bg-gradient2:before {
-  background: #4776e6;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#4776e6),
-    color-stop(80%, #8e54e9),
-    to(#8e54e9)
-  );
-  background: linear-gradient(90deg, #4776e6 0%, #8e54e9 80%, #8e54e9 100%);
+  background: #4776E6;
+  background: -webkit-gradient(linear, left top, right top, from(#4776E6), color-stop(80%, #8E54E9), to(#8E54E9));
+  background: linear-gradient(90deg, #4776E6 0%, #8E54E9 80%, #8E54E9 100%);
 }
 
 .pop-onhover.bg-gradient3 span,
 .pop-onhover.bg-gradient3:before {
-  background: #b9aef0;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#b9aef0),
-    color-stop(80%, #ada1eb),
-    to(#ada1eb)
-  );
-  background: linear-gradient(180deg, #b9aef0 0%, #ada1eb 80%, #ada1eb 100%);
+  background: #B9AEF0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B9AEF0), color-stop(80%, #ADA1EB), to(#ADA1EB));
+  background: linear-gradient(180deg, #B9AEF0 0%, #ADA1EB 80%, #ADA1EB 100%);
 }
 
 .bg-gradient4 span {
-  background: #f6682f;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f6682f),
-    color-stop(80%, #f6682f),
-    to(#f6682f)
-  );
-  background: linear-gradient(180deg, #f6682f 0%, #f6682f 80%, #f6682f 100%);
+  background: #F6682F;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F6682F), color-stop(80%, #F6682F), to(#F6682F));
+  background: linear-gradient(180deg, #F6682F 0%, #F6682F 80%, #F6682F 100%);
 }
 
 .fancy-button {
@@ -255,7 +220,7 @@ img {
   z-index: -1;
   border-radius: 2em;
   -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+          transform-style: preserve-3d;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -268,7 +233,7 @@ img {
   z-index: 2;
   will-change: transform, filter;
   -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+          transform-style: preserve-3d;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -283,20 +248,20 @@ img {
 
 .fancy-button:hover span {
   -webkit-filter: brightness(0.9) contrast(1.2);
-  filter: brightness(0.9) contrast(1.2);
+          filter: brightness(0.9) contrast(1.2);
   -webkit-transform: scale(0.96);
-  transform: scale(0.96);
+          transform: scale(0.96);
 }
 
 .fancy-button:hover:before {
   bottom: 3px;
   -webkit-filter: blur(6px) brightness(0.8);
-  filter: blur(6px) brightness(0.8);
+          filter: blur(6px) brightness(0.8);
 }
 
 .fancy-button:active span {
   -webkit-filter: brightness(0.75) contrast(1.7);
-  filter: brightness(0.75) contrast(1.7);
+          filter: brightness(0.75) contrast(1.7);
 }
 
 .fancy-button.pop-onhover span {
@@ -312,19 +277,19 @@ img {
   bottom: -7px;
   opacity: 1;
   -webkit-filter: blur(16px);
-  filter: blur(16px);
+          filter: blur(16px);
 }
 
 .fancy-button.pop-onhover:hover span {
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
 
 .fancy-button.pop-onhover:hover:active span {
   -webkit-filter: brightness(1) contrast(1);
-  filter: brightness(1) contrast(1);
+          filter: brightness(1) contrast(1);
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -332,7 +297,7 @@ img {
 .fancy-button.pop-onhover:hover:active:before {
   bottom: 0;
   -webkit-filter: blur(5px) brightness(0.85);
-  filter: blur(5px) brightness(0.85);
+          filter: blur(5px) brightness(0.85);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -370,13 +335,13 @@ img {
 }
 
 .bg-gradient4:focus span {
-  -webkit-box-shadow: 0 0 9px #00fff8;
-  box-shadow: 0 0 9px #00fff8;
+  -webkit-box-shadow: 0 0 9px #00FFF8;
+          box-shadow: 0 0 9px #00FFF8;
 }
 
 .bg-gradient4:active span {
   -webkit-filter: brightness(0.85) contrast(1.3);
-  filter: brightness(0.85) contrast(1.3);
+          filter: brightness(0.85) contrast(1.3);
 }
 
 .bg-gradient4 span {
@@ -401,7 +366,7 @@ img {
 @keyframes fade_move_down {
   0% {
     -webkit-transform: translate(0, -10px) rotate(45deg);
-    transform: translate(0, -10px) rotate(45deg);
+            transform: translate(0, -10px) rotate(45deg);
     opacity: 0;
   }
   50% {
@@ -409,7 +374,7 @@ img {
   }
   100% {
     -webkit-transform: translate(0, 10px) rotate(45deg);
-    transform: translate(0, 10px) rotate(45deg);
+            transform: translate(0, 10px) rotate(45deg);
     opacity: 0;
   }
 }
@@ -420,14 +385,14 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hero-content #hero-logo {
@@ -472,9 +437,7 @@ img {
   text-decoration: none;
 }
 
-.hero-content .signup a:hover,
-.hero-content .signup a:focus,
-.hero-content .signup a:active {
+.hero-content .signup a:hover, .hero-content .signup a:focus, .hero-content .signup a:active {
   text-decoration: none;
 }
 
@@ -529,9 +492,9 @@ img {
   background-color: #3e81d8;
   color: white;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   cursor: pointer;
 }
 
@@ -547,28 +510,16 @@ img {
 
 .about a {
   text-decoration: none;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#1fa2ff),
-    color-stop(51%, #12d8fa),
-    to(#1fa2ff)
-  );
-  background-image: linear-gradient(
-    to right,
-    #1fa2ff 0%,
-    #12d8fa 51%,
-    #1fa2ff 100%
-  );
+  background-image: -webkit-gradient(linear, left top, right top, from(#1FA2FF), color-stop(51%, #12D8FA), to(#1FA2FF));
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
   background-repeat: no-repeat;
   background-size: 300% .1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
-  animation: Gradient 1.5s ease infinite;
+          animation: Gradient 1.5s ease infinite;
   -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @-webkit-keyframes Gradient {
@@ -597,7 +548,7 @@ img {
 
 .about :hover {
   -webkit-animation-play-state: running;
-  animation-play-state: running;
+          animation-play-state: running;
 }
 
 .about p {
@@ -627,11 +578,11 @@ img {
 
 .about .about-blurb {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 5em auto;
   text-align: center;
 }
@@ -643,19 +594,19 @@ img {
 
 .about .left {
   -webkit-box-ordinal-group: 2;
-  -ms-flex-order: 1;
-  order: 1;
+      -ms-flex-order: 1;
+          order: 1;
   -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
+      flex-basis: 100%;
   height: 100%;
 }
 
 .about .right {
   -webkit-box-ordinal-group: 3;
-  -ms-flex-order: 2;
-  order: 2;
+      -ms-flex-order: 2;
+          order: 2;
   -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
+      flex-basis: 100%;
   height: 300px;
 }
 
@@ -715,9 +666,9 @@ img {
   background-size: 300% .05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
-  animation: Gradient 2s ease infinite;
+          animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -734,7 +685,7 @@ img {
 
 .schedule :hover {
   -webkit-animation-play-state: running;
-  animation-play-state: running;
+          animation-play-state: running;
 }
 
 .schedule .x-green {
@@ -745,8 +696,8 @@ img {
 .sponsors {
   margin-top: 10em;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sponsors h1 {
@@ -780,9 +731,9 @@ img {
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
-  animation: Gradient 1.5s ease infinite;
+          animation: Gradient 1.5s ease infinite;
   -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -799,7 +750,7 @@ img {
 
 .sponsors h3 :hover {
   -webkit-animation-play-state: running;
-  animation-play-state: running;
+          animation-play-state: running;
 }
 
 .sponsors .logo {
@@ -811,18 +762,18 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .sponsors .justify-content-center {
   -webkit-box-pack: center !important;
-  -ms-flex-pack: center !important;
-  justify-content: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 .sponsors .img-fluid {
@@ -835,7 +786,7 @@ img {
 
 .sponsors .img-fluid:hover {
   -webkit-transform: scale(1.05, 1.05);
-  transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
 }
 
 .sponsors .underline--magical {
@@ -844,9 +795,9 @@ img {
   background-size: 300% .05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
-  animation: Gradient 2s ease infinite;
+          animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -863,7 +814,7 @@ img {
 
 .sponsors :hover {
   -webkit-animation-play-state: running;
-  animation-play-state: running;
+          animation-play-state: running;
 }
 
 .sponsors .circle-pink {
@@ -877,10 +828,10 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 10em;
 }
 
@@ -910,28 +861,16 @@ img {
 
 .faq a {
   text-decoration: none;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#1fa2ff),
-    color-stop(51%, #12d8fa),
-    to(#1fa2ff)
-  );
-  background-image: linear-gradient(
-    to right,
-    #1fa2ff 0%,
-    #12d8fa 51%,
-    #1fa2ff 100%
-  );
+  background-image: -webkit-gradient(linear, left top, right top, from(#1FA2FF), color-stop(51%, #12D8FA), to(#1FA2FF));
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
   background-repeat: no-repeat;
   background-size: 500% .1em;
   background-position: 0 100%;
   color: white;
   -webkit-animation: Gradient 1.5s ease infinite;
-  animation: Gradient 1.5s ease infinite;
+          animation: Gradient 1.5s ease infinite;
   -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -948,7 +887,7 @@ img {
 
 .faq :hover {
   -webkit-animation-play-state: running;
-  animation-play-state: running;
+          animation-play-state: running;
 }
 
 .faq .row {
@@ -956,7 +895,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .faq .faq-qa {
@@ -967,19 +906,14 @@ img {
 }
 
 .faq .underline--magical {
-  background-image: linear-gradient(
-    225deg,
-    #ff3cac 0%,
-    #784ba0 50%,
-    #2b86c5 100%
-  );
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
   background-repeat: no-repeat;
   background-size: 300% .05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
-  animation: Gradient 2s ease infinite;
+          animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -996,7 +930,7 @@ img {
 
 .faq :hover {
   -webkit-animation-play-state: running;
-  animation-play-state: running;
+          animation-play-state: running;
 }
 
 .faq .circle-green {
@@ -1033,20 +967,8 @@ img {
 
 .map a {
   text-decoration: none;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#1fa2ff),
-    color-stop(51%, #12d8fa),
-    to(#1fa2ff)
-  );
-  background-image: linear-gradient(
-    to right,
-    #1fa2ff 0%,
-    #12d8fa 51%,
-    #1fa2ff 100%
-  );
+  background-image: -webkit-gradient(linear, left top, right top, from(#1FA2FF), color-stop(51%, #12D8FA), to(#1FA2FF));
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
   background-repeat: no-repeat;
   background-size: 100% .1em;
   background-position: 0 100%;
@@ -1065,20 +987,20 @@ img {
 
 .map .left {
   -webkit-box-ordinal-group: 2;
-  -ms-flex-order: 1;
-  order: 1;
+      -ms-flex-order: 1;
+          order: 1;
   -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
+      flex-basis: 100%;
   height: 100%;
   max-height: 75vh;
 }
 
 .map .right {
   -webkit-box-ordinal-group: 3;
-  -ms-flex-order: 2;
-  order: 2;
+      -ms-flex-order: 2;
+          order: 2;
   -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
+      flex-basis: 100%;
   height: 100%;
   /* Clearfix */
 }
@@ -1140,21 +1062,15 @@ img {
 }
 
 .map .underline--magical {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#ee0979),
-    to(#ff6a00)
-  );
+  background-image: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
   background-image: linear-gradient(to right, #ee0979, #ff6a00);
   background-repeat: no-repeat;
   background-size: 300% .05em;
   background-position: 0 100%;
   -webkit-animation: Gradient 2s ease infinite;
-  animation: Gradient 2s ease infinite;
+          animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @keyframes Gradient {
@@ -1171,7 +1087,7 @@ img {
 
 .map :hover {
   -webkit-animation-play-state: running;
-  animation-play-state: running;
+          animation-play-state: running;
 }
 
 footer {
@@ -1185,7 +1101,7 @@ footer {
 
 footer .footer-content {
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   white-space: nowrap;
   padding-left: 0.25em;
   padding-right: 0.25em;
@@ -1195,14 +1111,14 @@ footer .footer-content {
   display: -ms-flexbox !important;
   display: flex !important;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer .footer-content a {
   -webkit-box-flex: 0;
-  -ms-flex: 0;
-  flex: 0;
+      -ms-flex: 0;
+          flex: 0;
   padding-left: 0.75em;
   padding-right: 0.75em;
   margin-left: 1em;
@@ -1330,11 +1246,11 @@ footer .footer-content a {
   }
   .about-container {
     -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
   .map-container {
     -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
   .about p {
     text-align: left;
@@ -1385,8 +1301,8 @@ footer .footer-content a {
   }
   .faq .faq-qa {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
     max-width: 50%;
   }
   .faq .circle-green {
@@ -1496,35 +1412,5 @@ table th {
   table td:last-child {
     border-bottom: 0;
   }
-}
-
-/* Style the navbar */
-#accordion {
-  overflow: hidden;
-  background-color: #13191e;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  opacity: 75%;
-}
-
-/* Navbar links */
-#accordion a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 0.75vw;
-  text-decoration: none;
-  font-family: "Muli", sans-serif;
-  font-size: x-large;
 }
 /*# sourceMappingURL=main.css.map */

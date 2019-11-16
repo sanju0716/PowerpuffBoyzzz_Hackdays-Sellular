@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-display: 100%;
@@ -11,29 +11,17 @@
 body {
   font-family: "Open Sans", sans-serif;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   /* Non-prefixed version, currently
                       supported by Chrome and Opera */
   text-align: center;
   min-height: 100vh;
   margin: 25% auto;
   color: #fff;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(20, 30, 48, 0.96)),
-      to(rgba(36, 59, 85, 0.96))
-    ),
-    url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
-  background: linear-gradient(
-      to right,
-      rgba(20, 30, 48, 0.96),
-      rgba(36, 59, 85, 0.96)
-    ),
-    url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(20, 30, 48, 0.96)), to(rgba(36, 59, 85, 0.96))), url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
+  background: linear-gradient(to right, rgba(20, 30, 48, 0.96), rgba(36, 59, 85, 0.96)), url("../../assets/Hero/scott-webb-388797-unsplash.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,20 +42,8 @@ h4 {
 .underlined {
   text-decoration: none;
   color: #fff;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#1fa2ff),
-    color-stop(51%, #12d8fa),
-    to(#1fa2ff)
-  );
-  background-image: linear-gradient(
-    to right,
-    #1fa2ff 0%,
-    #12d8fa 51%,
-    #1fa2ff 100%
-  );
+  background-image: -webkit-gradient(linear, left top, right top, from(#1fa2ff), color-stop(51%, #12d8fa), to(#1fa2ff));
+  background-image: linear-gradient(to right, #1fa2ff 0%, #12d8fa 51%, #1fa2ff 100%);
   background-repeat: no-repeat;
   background-size: 300% 0.1em;
   background-position: 0 100%;
@@ -98,14 +74,7 @@ a {
 }
 
 #insta {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   -webkit-background-clip: text;
   /* Also define standard property for compatibility */
   -webkit-background-clip-background-clip: text;
