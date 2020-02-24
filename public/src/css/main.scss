@@ -1,7 +1,8 @@
 @import "_global";
 @import url('https://fonts.googleapis.com/css?family=Chakra+Petch:700');
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
 .container {
     width: 257px;
     margin: 0 auto;
@@ -1419,3 +1420,37 @@ table {
       border-bottom: 0;
     }
   }
+
+.posting {
+    font-family: "Montserrat";
+    max-width: 775px;
+    margin: auto;
+    line-height: 1.45rem;
+    letter-spacing: 0.05rem;
+    color: #f1f4fa;
+
+    p {
+        font-size: 14px
+    }
+
+    h3 {
+        margin-bottom: 10px;
+    }
+
+    li {
+        margin-left: 30px;
+        line-height: 1.9rem;
+        font-size: 14px;
+    }
+
+    a {
+        text-decoration-color: #2B86C5;
+        color:#2B86C5
+    }
+
+    .title {
+        margin-bottom: 40px;
+        margin-top: 40px;
+        font-weight: bold;
+    }
+}

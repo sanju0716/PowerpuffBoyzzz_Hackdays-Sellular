@@ -1,6 +1,7 @@
 @import "_global";
 @import url("https://fonts.googleapis.com/css?family=Chakra+Petch:700");
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 .container {
   width: 257px;
   margin: 0 auto;
@@ -1005,4 +1006,8 @@ footer {
   .schedule {
     margin-top: 0;
   }
+}
+
+.posting {
+  font-family: "Lexend Deca"
 }
